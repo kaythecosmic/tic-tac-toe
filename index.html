@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Tic-Tac-Toe</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="game-box" onclick="humanMoveHandler('1')"> <p id="1"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('2')"> <p id="2"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('3')"> <p id="3"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('4')"> <p id="4"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('5')"> <p id="5"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('6')"> <p id="6"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('7')"> <p id="7"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('8')"> <p id="8"> </p> </div>
+        <div class="game-box" onclick="humanMoveHandler('9')"> <p id="9"> </p> </div>
+    </div>
+
+    <div class="result" id="resultBox"></div>
+    <button class="btn" id="reset" onclick="resetGame()">RESET GAME</button>
+
+    <script src='index.js'></script>
+
+</body>
+
+</html>
